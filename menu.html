@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu · The Chicken Hut Durham</title>
+  <meta name="description" content="Daily lunch specials and famous fried chicken at The Chicken Hut, Durham NC." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650;9..144,700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="preview-banner" role="status">Sample redesign preview · not live on chickenhutnc.weebly.com · <span>Call, email &amp; Facebook links work</span></div>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/logo-mark.png" alt="The Chicken Hut logo" width="44" height="44" />
+        <span class="brand-text"><span class="brand-name">The Chicken Hut</span><span class="brand-tag">Fayetteville St · Durham since 1957</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="menu.html" aria-current="page">Menu</a>
+        <a href="catering.html">Catering</a>
+        <a href="story.html">Story</a>
+        <a href="visit.html">Visit</a>
+      </nav>
+      <div class="nav-ctas">
+        <a class="btn btn-secondary" href="https://www.facebook.com/CHUTDURHAM" target="_blank" rel="noopener">Daily specials</a>
+        <a class="btn btn-primary" href="tel:9196825697">Call</a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-panel" id="mobile-nav" data-mobile-panel>
+      <a href="menu.html">Menu</a>
+      <a href="catering.html">Catering</a>
+      <a href="story.html">Story</a>
+      <a href="visit.html">Visit</a>
+      <a href="https://www.facebook.com/CHUTDURHAM" target="_blank" rel="noopener">Facebook specials</a>
+      <a href="mailto:thechickenhut@hotmail.com">thechickenhut@hotmail.com</a>
+      <div class="mobile-ctas">
+        <a class="btn btn-secondary" href="https://www.facebook.com/CHUTDURHAM" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn btn-primary" href="tel:9196825697">Call</a>
+      </div>
+    </div>
+  </header>
+
+<main>
+  <header class="page-hero"><div class="page-hero-inner">
+    <p class="section-kicker" style="color:var(--amber)">Menu</p>
+    <h1>Daily specials + famous fried chicken.</h1>
+    <p>Menu changes daily. Check <a href="https://www.facebook.com/CHUTDURHAM" target="_blank" rel="noopener">Facebook · CHUTDURHAM</a> for today’s updates. Sides vary and are subject to change.</p>
+  </div></header>
+  <section class="section"><div class="section-inner">
+    <div class="menu-tabs" role="tablist" aria-label="Menu sections">
+      <button class="menu-tab" type="button" data-menu-tab="daily" aria-selected="true">Daily specials</button>
+      <button class="menu-tab" type="button" data-menu-tab="always">Always on</button>
+    </div>
+    <div data-menu-panel="daily">
+      <p class="menu-note" style="margin-bottom:1.2rem">Our famous fried chicken is served daily. Call <a href="tel:9196825697">(919) 682-5697</a> to confirm what’s on the line.</p>
+      <div class="day-grid">
+        <article class="day-card"><header>Monday</header><ul>
+          <li>Baked Spaghetti</li><li>BBQ Chicken</li><li>Meatloaf</li><li>Neck Bones</li><li>Baked Chicken</li><li>Fried Trout</li><li>Fried Shrimp</li>
+          <li class="famous">★ Famous Fried Chicken daily</li>
+        </ul></article>
+        <article class="day-card"><header>Tuesday</header><ul>
+          <li>BBQ Ribs</li><li>Smothered Pork Chops</li><li>Salmon Cakes</li><li>Baked Chicken</li><li>Fried Chicken</li><li>Fried Shrimp</li><li>Fried Fish</li>
+        </ul></article>
+        <article class="day-card"><header>Wednesday</header><ul>
+          <li>Baked Spaghetti</li><li>Country Smothered Chicken</li><li>Pig Feet</li><li>Fried Chicken</li><li>Fried Fish</li><li>Fried Shrimp</li>
+          <li class="famous">Don’t forget sides &amp; desserts</li>
+        </ul></article>
+        <article class="day-card"><header>Thursday</header><ul>
+          <li>Country Smothered Pork Chops</li><li>Baked Spaghetti</li><li>Homemade Chicken &amp; Dumplings</li><li>Baked Chicken</li><li>Pig Feet</li><li>Fried Chicken</li><li>Fried Fish</li><li>Fried Shrimp</li><li>Salisbury Steak</li>
+        </ul></article>
+        <article class="day-card"><header>Friday</header><ul>
+          <li>Oxtails</li><li>Fried Chicken</li><li>Fried Shrimp</li><li>Baked Chicken</li>
+          <li class="famous">Friday favorites — come early</li>
+        </ul></article>
+      </div>
+    </div>
+    <div data-menu-panel="always" hidden>
+      <div class="split" style="margin-bottom:2rem">
+        <div class="split-media"><img src="assets/chicken-dinner.jpg" alt="Chicken dinner plate" width="920" height="519" /></div>
+        <div>
+          <p class="section-kicker">House favorites</p>
+          <h2>Plates regulars order by name.</h2>
+          <p class="section-lead">Fried chicken made to order (dark or white), mac &amp; cheese, yams, greens, okra &amp; tomatoes, hushpuppies, cobblers.</p>
+        </div>
+      </div>
+      <div class="menu-section"><h3>Sides &amp; vegetables (vary daily)</h3>
+        <div class="menu-list">
+          <div class="menu-item"><h4>Macaroni &amp; Cheese · Mashed Potatoes · Yams · Rolls</h4></div>
+          <div class="menu-item"><h4>Rice · Cabbage · Hushpuppies · Pinto Beans</h4></div>
+          <div class="menu-item"><h4>Collard Greens · Okra and Tomatoes · Green Beans</h4></div>
+        </div>
+      </div>
+      <div class="menu-section"><h3>Desserts</h3>
+        <div class="menu-list">
+          <div class="menu-item"><h4>Peach Cobbler · Apple Cobbler · Red Velvet Cake · Banana Pudding · Pound Cake</h4><p>Availability changes — ask at the counter.</p></div>
+        </div>
+      </div>
+      <p class="menu-note">All prices and menu items are subject to change without notice. Full catering list on the <a href="catering.html">catering page</a>.</p>
+    </div>
+  </div></section>
+
+</main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="brand-name">The Chicken Hut</div>
+        <div class="brand-tag">Proud to serve Durham since 1957 · City of Durham Landmark</div>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>Visit</h4>
+          <p>3019 Fayetteville Street<br>Durham, NC 27707</p>
+          <a href="tel:9196825697">(919) 682-5697</a>
+          <a href="mailto:thechickenhut@hotmail.com">thechickenhut@hotmail.com</a>
+        </div>
+        <div>
+          <h4>Lunch hours</h4>
+          <p>Monday–Friday from 11:30 am</p>
+          <p>Closed Saturday &amp; Sunday</p>
+          <p>Check Facebook for daily updates</p>
+        </div>
+        <div>
+          <h4>Links</h4>
+          <a href="menu.html">Today’s menu style</a>
+          <a href="catering.html">Catering trays &amp; entrees</a>
+          <a href="https://www.facebook.com/CHUTDURHAM" target="_blank" rel="noopener">Facebook · CHUTDURHAM</a>
+          <a href="https://chickenhutnc.weebly.com/" target="_blank" rel="noopener">Current Weebly site</a>
+        </div>
+      </div>
+      <div class="footer-bottom">Sample redesign by Roman Sites · Raleigh · not the live Weebly site</div>
+    </div>
+  </footer>
+  <script src="assets/site.js"></script>
+</body>
+</html>
